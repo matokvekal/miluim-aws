@@ -4,7 +4,7 @@ dotenv.config();
 
 
 const mode = process.env.MODE || 'development';
-
+//hi gilad
 
 const configByEnv: any = {
    development: {
@@ -15,7 +15,7 @@ const configByEnv: any = {
       passwordEncryptSalt: 10,
    },
    production: {
-  PORT: 5000,
+      PORT: 5000,
       allowedOrigins: "http://localhost:5000,http://123.0.0.1:5000",
       JWT_SECRET: process.env.JWT_SECRET,
       otpExpirationTimeInMinutes: 10,
