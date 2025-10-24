@@ -1,0 +1,31 @@
+# Ignore environment files
+.env
+/.env
+env.json
+serviceAccountKey.json
+
+node_modules/
+
+dist/
+
+*.class
+
+# Ignore Python bytecode
+*.py[cod]
+
+# Ignore logs
+*.log
+/logs/
+app.log
+/logs/log  # This is redundant because /logs/ already covers it
+
+*.jar
+/package-lock.json
+
+/config/
+babel.config.js
+
+/__tests__/
+
+README.md
+API.md
