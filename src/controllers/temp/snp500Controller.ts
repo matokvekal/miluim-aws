@@ -28,7 +28,7 @@ class SNP500Controller extends BaseController {
           lastprice,
           sector
         FROM snp500
-        ORDER BY lastprice 
+        ORDER BY symbol 
         LIMIT :limit
       `;
 
